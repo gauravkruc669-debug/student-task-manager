@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Student Task Manager</h1>
+      <p>Simple to-do list for college assignments and daily tasks.</p>
+    </header>
+
+    <section class="input-box">
+      <input id="taskInput" type="text" placeholder="Enter a task...">
+      <button onclick="addTask()">Add Task</button>
+    </section>
+
+    <div class="stats">
+      <span id="total">Total: 0</span>
+      <span id="completed">Completed: 0</span>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
